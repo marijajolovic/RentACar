@@ -1,4 +1,6 @@
 ﻿# Rent a Car Agency - Inovatec
+ 
+![inovatec](https://github.com/marijajolovic/RentACar/assets/66354147/12137988-d378-4763-b146-45d930620e1d)
 
 Napisati program koji će simulirati rezervaciju vozila u Rent a car agenciji. Postoje dve vrste vozila, motori i automobili.
 Izdaju se dve marke motora Yamaha i Harley, kao i tri marke automobila Mercedes, BMW i Peugeot. Za motore su poznati
