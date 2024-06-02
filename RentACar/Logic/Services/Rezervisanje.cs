@@ -60,7 +60,7 @@ namespace RentACar.Logic.Services
             if (!kupac.imaNovcaZaVozilo(ukupnaCena))
             {
                 if (flag == true) poruka = " i";
-                poruka += " nema dovoljno novca za iznajmljivanje vozila : " + vozilo.Marka + " " + vozilo.Model + "(" + vozilo.Cena.ToString("0.00") + "e). Raspoloziv budzet je : " + kupac.Budzet.ToString("0.00") + "e";
+                poruka += " nema dovoljno novca za iznajmljivanje vozila : " + vozilo.Marka + " " + vozilo.Model + "(" + ukupnaCena.ToString("0.00") + "e). Raspoloziv budzet je : " + kupac.Budzet.ToString("0.00") + "e";
 
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine(poruka);
