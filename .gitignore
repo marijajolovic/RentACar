@@ -243,3 +243,8 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/RentACar/.vs
+/RentACar/RentACar/.vs
+/.vs
+/RentACar/RentACar/bin/Debug/net8.0
+/RentACar/RentACar/obj
