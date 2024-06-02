@@ -67,6 +67,7 @@ namespace RentACar.Logic.Services
                 Console.ForegroundColor = ConsoleColor.Gray;
                 return false;
             }
+            if (flag == true) return false;
 
             _rezervacije.Add(new Rezervacija(
                 kupac,
